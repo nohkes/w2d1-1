@@ -20,7 +20,6 @@ https.get(options, function (response) {
 
   	response.on('data', function(chunk){
   		data += chunk;
-  		console.log(data)
   	});
   // the callback is invoked when all of the data has been received
   // (the `end` of the stream)
